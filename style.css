@@ -211,6 +211,7 @@ img {
   margin-top: 5px;
 }
 .phn-num p, .mail-id p {
+    font-family: Rounded Elegance;  
   color: #62406d;
   display: inline-block;
   font-size: 12px;
@@ -1448,6 +1449,7 @@ img {
   color: #ccc;
   font-size: 14px;
   font-weight: 400;
+    font-family: Rounded Elegance;
 }
 .single-contact .details a {
   color: #ccc;
@@ -2319,6 +2321,7 @@ h4.heading {
 	font-size: 14px;
 	font-weight: 400;
 	margin-bottom: 20px;
+    font-family: Rounded Elegance;
 }
 .info-single {
   margin-bottom: 15px;
@@ -2618,6 +2621,7 @@ h4.heading {
   z-index: 5;
 }
 .not-found-text h2 {
+    font-family: Rounded Elegance;
   margin-top:40px;
   font-size: 280px;
   font-weight: 700;
