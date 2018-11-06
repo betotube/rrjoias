@@ -100,21 +100,35 @@ img {
   text-align: center;
   margin-bottom: 50px;
 }
+
+.funfact p{
+    font-size:20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-title h1{
+    color: #62406d;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    
+}
 .section-title h2 {
-  color: #c69a5d;
+  color: #62406d;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 .underline {
-  background: #c69a5d none repeat scroll 0 0;
-  height: 2px;
+  background: linear-gradient(45deg, rgba(234, 141, 141, 1) 0%, rgba(168, 144, 254, 1) 100%);
+  height: 3px;
   margin: 0 auto;
-  width: 100px;
+  width: 300px;
 }
 .overlay {
-  background: rgba(224,158,37,0.8);
+  background: rgba(98,68,109,0.8);
 }
 .owl-dots {
   text-align: center;
@@ -142,8 +156,8 @@ img {
   top: 0;
 }
 .owl-nav > div {
-  border: 2px solid #c69a5d;
-  color: #c69a5d;
+  border: 2px solid #62406d;
+  color: #62406d    ;
   display: inline-block;
   font-size: 22px;
   height: 36px;
@@ -162,7 +176,7 @@ img {
 .owl-nav .owl-prev{}
 .owl-nav .owl-next{}
 #scrollUp {
-  background: #c69a5d none repeat scroll 0 0;
+  background: linear-gradient(45deg, rgba(234, 141, 141, 1) 0%, rgba(168, 144, 254, 1) 100%);
   border: 3px solid #fff;
   bottom: 65px;
   color: #fff;
@@ -188,7 +202,7 @@ img {
   margin-right: 20px;
 }
 .phn-num i, .mail-id i {
-  color: #fff;
+  color: #62406d;
   font-size: 12px;
   margin-right: 5px;
   margin-top: 3px;
@@ -197,21 +211,21 @@ img {
   margin-top: 5px;
 }
 .phn-num p, .mail-id p {
-  color: #fff;
+  color: #62406d;
   display: inline-block;
   font-size: 12px;
   font-weight: 600;
 }
 .mail-id p a {
-  color: #fff;
+  color: #62406d;
 }
 .mail-id p a:hover {
   text-decoration: underline;
 }
 .socials a {
-  border: 2px solid #fff;
+  border: 2px solid #62406d;
   border-radius: 50%;
-  color: #fff;
+  color: #62406d;
   font-size: 12px;
   height: 25px;
   margin-right: 25px;
@@ -287,7 +301,7 @@ img {
 }
 /*----- 3.3 Header Area -----*/
 .header-area {
-  background: #000 none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   padding-top: 20px;
 }
 .log-link p {
@@ -461,7 +475,7 @@ img {
 }
 /*----- 3.4 Main Menu -----*/
 .menu-area {
-  background:#c69a5d;
+  background: linear-gradient(45deg, rgba(234, 141, 141, 1) 0%, rgba(168, 144, 254, 1) 100%);
 }
 .main-menu {
   text-align: center;
@@ -486,9 +500,10 @@ img {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  color:white;
 }
 .main-menu > nav > ul > li > a:hover, .main-menu > nav > ul > li > a:focus {
-  color:#fff;
+  color:#484343;
 }
 .sub-menu, .mega-menu {
   background: #d69b59 none repeat scroll 0 0;
@@ -678,7 +693,7 @@ img {
   margin-bottom: 15px;
 }
 .mean-container .mean-bar, .mean-container .mean-nav, .mean-container .mean-nav ul li a.mean-expand:hover {
-  background: #c69a5d none repeat scroll 0 0;
+  background:linear-gradient(45deg, rgba(234, 141, 141, 1) 0%, rgba(168, 144, 254, 1) 100%);
 }
 /*----- 3.5 Slider Area -----*/
 .slider-wrap {
@@ -708,7 +723,7 @@ img {
   margin-bottom: 20px;
 }
 .cap-title h1 {
-  background: rgba(224, 158, 37, 0.6) none repeat scroll 0 0;
+  background: rgba(146, 58, 154, 0.6) none repeat scroll 0 0;
   color: #ebebeb;
   display: inline-block;
   font-size: 45px;
@@ -721,7 +736,7 @@ img {
 	margin-bottom: 30px;
 }
 .cap-dec h2 {
-  background: rgba(224, 158, 37, 0.6) none repeat scroll 0 0;
+  background: rgba(146, 58, 154, 0.6) none repeat scroll 0 0;
   color: #ebebeb;
   display: inline-block;
   font-size: 50px;
@@ -734,7 +749,7 @@ img {
   overflow: hidden;
 }
 .cap-readmore a {
-  background: #cc8637 none repeat scroll 0 0;
+  background: #62406d none repeat scroll 0 0;
   color: #ebebeb;
   font-size: 16px;
   font-weight: 700;
@@ -761,7 +776,7 @@ img {
   width: 30px;
 }
 .nivo-control.active {
-  background: #c69a5d;
+  background: linear-gradient(45deg, rgba(234, 141, 141, 1) 0%, rgba(168, 144, 254, 1) 100%);
 }
 .slider-progress{
 	position:absolute;
@@ -930,7 +945,7 @@ img {
   position: relative;
 }
 .sin-banner > a::before {
-  background: rgba(224, 158, 37, 0.6) none repeat scroll 0 0;
+  background: rgba(225, 225, 225, 0.6) none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
@@ -967,7 +982,7 @@ img {
   transform: translateX(-50%) translateY(-50%) scale(1);
 }
 .sin-banner a .wrap h2 {
-  color: #fff;
+  color: #62406d;
   font-size: 40px;
   font-weight: 900;
   text-transform: uppercase;
@@ -988,11 +1003,11 @@ img {
   text-align: center;
 }
 .banner-text h1 {
-  color: #fff;
+  color: #62406d;
   font-size: 45px;
   font-weight: 300;
   line-height: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   text-transform: uppercase;
   margin-top: 50px;
 }
@@ -1001,8 +1016,8 @@ img {
   font-weight: 600;
 }
 .banner-text h2 {
-  color: #fff;
-  font-size: 36px;
+  color: #62406d;
+  font-size: 25px;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -1050,7 +1065,7 @@ img {
 }
 /*----- 3.9 Magic Area -----*/
 .magic-area {
-  background: #c69a5d none repeat scroll 0 0;
+  background: rgba(234, 141, 141, 1);
 }
 .magic-area .image {
   padding: 0;
@@ -1096,7 +1111,7 @@ img {
   width: 100%;
 }
 .magic-area .content {
-  background: #c69a5d none repeat scroll 0 0;
+  background: rgba(234, 141, 141, 1);
   padding: 30px;
 }
 .magic-area .content h2 {
@@ -1119,7 +1134,7 @@ img {
 }
 .magic-area .content a {
   background: #fff none repeat scroll 0 0;
-  color: #c69a5d;
+  color: #62406d;
   display: inline-block;
   font-weight: 600;
   font-size: 14px;
@@ -1140,7 +1155,7 @@ img {
   margin-bottom: 30px;
 }
 .single-blog .date {
-  background: #c69a5d none repeat scroll 0 0;
+  background: linear-gradient(45deg, rgba(234, 141, 141, 1) 0%, rgba(168, 144, 254, 1) 100%);
   color: #fff;
   height: 60px;
   left: 0;
@@ -1264,13 +1279,13 @@ img {
 }
 /*----- 3.11 Fun factor Area -----*/
 .funfact {
-  padding-top: 0;
+  padding-top: 50px;
 }
 .fun-factor {
   text-align: center;
 }
 .fun-factor-in {
-  background: #c69a5d none repeat scroll 0 0;
+  background: #62406d none repeat scroll 0 0;
   border-radius: 10px;
   height: 60px;
   margin: 20px auto 40px;
@@ -1286,7 +1301,7 @@ img {
   transform: rotate(-45deg);
 }
 .fun-factor-out {
-  border: 1px solid #c69a5d;
+  border: 1px solid #62406d;
   border-radius: 10px;
   height: 70px;
   -webkit-transform: rotate(90deg);
@@ -1367,7 +1382,7 @@ img {
   text-align: center;
 }
 .support i {
-  color: #c69a5d;
+  color: #62406d;
   font-size: 40px;
   margin-bottom: 20px;
 }
@@ -1383,7 +1398,7 @@ img {
 }
 /*----- 3.15 Footer top Area -----*/
 .footer-top-area {
-  background: #252525 none repeat scroll 0 0;
+  background: #2f2f2f none repeat scroll 0 0;
   padding: 40px 0 60px;
 }
 .footer-about {
@@ -1972,7 +1987,7 @@ img {
 .about-text p {
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 .about-text p span{color:#c69a5d;}
 .about-text blockquote {
@@ -2661,7 +2676,7 @@ h4.heading {
   transition: all 0.3s ease 0s;
 }
 .portfolio-filter .filter.active, .portfolio-filter .filter:hover {
-  background: #c69a5d none repeat scroll 0 0;
+  background: #ae90f4 none repeat scroll 0 0;
   color: #fff;
 }
 .port-wrap {
@@ -2717,7 +2732,7 @@ h4.heading {
 	14. FAQ Page
 -------------------------*/
 #faqs .panel-heading a {
-  background: #c69a5d none repeat scroll 0 0;
+  background: linear-gradient(45deg, rgba(234, 141, 141, 1) 0%, rgba(168, 144, 254, 1) 100%);
   color: #fff;
 }
 /*-----------------------
